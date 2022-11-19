@@ -7,13 +7,14 @@ int main(void)
 	a.InitTexturePosition(1, 8, 4, 3, 1);
 
 	int i = 0;
-	while (true)
-	{
-		a.UpdatePositionLoop();
-		a.ReturnPosX();
-		a.ReturnPosY();
-		a.ReturnWightX();
-		a.ReturnHightY();
-	}
+	printf("‚±‚ñ‚É‚¿‚Í");
+	//while (true)
+	//{
+	//	a.UpdatePositionLoop();
+	//	a.ReturnPosX();
+	//	a.ReturnPosY();
+	//	a.ReturnWightX();
+	//	a.ReturnHightY();
+	//}
 	return 0;
 }
